@@ -874,6 +874,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-simple-particle-sim"
+version = "0.1.0"
+dependencies = [
+ "half",
+ "matrix",
+ "rand",
+ "simple-particle-sim",
+ "softbuffer",
+ "winit",
+]
+
+[[package]]
 name = "rustix"
 version = "0.38.31"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -939,10 +951,6 @@ name = "simple-particle-sim"
 version = "0.1.0"
 dependencies = [
  "half",
- "matrix",
- "rand",
- "softbuffer",
- "winit",
 ]
 
 [[package]]

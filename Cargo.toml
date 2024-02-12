@@ -1,5 +1,5 @@
 [package]
-name = "simple-particle-sim"
+name = "rust-simple-particle-sim"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,3 +11,4 @@ matrix = "0.22.0"
 winit = "0.29.10"
 softbuffer = "0.4.1"
 rand = "0.8.5"
+simple-particle-sim = { path = "../simple-particle-sim" }
